@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click Me!</title>
+	<style>
+		body {
+			font-family: Arial, initial;
+			height: 100vh;
+			margin: 0;
+			background-color: #FFFFFF;
+		}
+	
+		.button {
+			background-color: #ffa07a; /* orange */
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<button class="button" id="myButton">Click Me!</button>
+
+	<script>
+		document.getElementById("myButton").addEventListener("click", function() {
+			this.textContent = "9T3 LCAR MN DAR";
+		});
+	</script>
+</body>
+</html>
